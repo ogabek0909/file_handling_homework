@@ -1,5 +1,5 @@
 def main(data:str):
-    l=open(data).read().split(',')
+    l=open(f'txt_file/{data}').read().split(',')
     array=[]
     for i in l:
         array.append(int(i))
