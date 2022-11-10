@@ -12,7 +12,7 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    return s
+    return int(s)
 print(main("""Django 4.0
 NumPy 1.22.0
 TensorFlow 2
