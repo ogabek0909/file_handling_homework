@@ -1,7 +1,7 @@
 def main(data:str):
     array=[]
     for i in data:
-        if i.isalpha():
+        if not i.isdigit():
             array.append(i)
 
     """
@@ -12,4 +12,8 @@ def main(data:str):
         list: return answer
     """
     return array
+
+print(main("""python2022
+coder01
+"""))
 # Read data from file
