@@ -10,7 +10,7 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    return min(array)
+    return int(min(array))
 # Read data from file
 print(main("""Django 4.0
 NumPy 1.22.0
