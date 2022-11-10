@@ -1,8 +1,9 @@
 def main(data:str):
-    l=open(f'txt_file/{data}').read().split(',')
-    array=[]
-    for i in l:
-        array.append(int(i))
+    array =data.split(',')
+    # l=open(f'txt_file/{data}').read().split(',')
+    # array=[]
+    # for i in l:
+    #     array.append(int(i))
     """
     The data is from the file. Return data as a list type.
     Args:
@@ -12,5 +13,5 @@ def main(data:str):
     """
     return array
 
-print (main('data01.txt'))
+print (main('1,2,3,4,5,6,7'))
 # Read data from file
